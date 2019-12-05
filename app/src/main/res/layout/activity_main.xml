@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    tools:context=".activities.MainActivity"
+    android:theme="@android:style/Theme.Black.NoTitleBar">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F0F4F7"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingTop="20dp">
+
+        <TextView
+            android:id="@+id/hometitle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:text="@string/home_title"
+            android:textColor="#0B92BA"
+            android:textSize="26sp"
+            android:textStyle="bold">
+        </TextView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:foregroundGravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/homesub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:text="@string/subtitle"
+                android:textColor="#727272"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="26dp"
+                android:src="@drawable/flag" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="183dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/casaimage"
+                android:layout_width="180dp"
+                android:layout_height="220dp"
+                android:src="@drawable/casablanca" />
+
+            <ImageView
+                android:id="@+id/kechimage"
+                android:layout_width="180dp"
+                android:layout_height="220dp"
+                android:src="@drawable/kech" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <!-- Comment Ca Marche text -->
+
+    <TextView
+        android:id="@+id/comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="@string/comment"
+        android:textColor="#0B92BA"
+        android:textSize="26dp"
+        android:textStyle="bold" />
+    <!-- end of comment ca marche -->
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+
+        <!-- lINEAR LAYOUT for "comment ca marhce" -->
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <!-- lINEAR LAYOUT for "icone +text" -->
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:paddingTop="10dp"
+                android:src="@drawable/city" />
+
+            <TextView
+                android:layout_width="317dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="32dp"
+                android:text="@string/step1"
+                android:textColor="#707070"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <!-- lINEAR LAYOUT for "icone +text" -->
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="10dp"
+                android:src="@drawable/service_choice" />
+
+            <TextView
+                android:layout_width="317dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="26dp"
+                android:text="@string/step2"
+                android:textColor="#707070"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <!-- lINEAR LAYOUT for "icone +text" -->
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:paddingTop="10dp"
+                android:src="@drawable/artisan" />
+
+            <TextView
+                android:layout_width="317dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="26dp"
+                android:text="@string/step3"
+                android:textColor="#707070"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:duplicateParentState="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:autoLink="phone"
+                android:background="#38C646"
+                android:text="@string/cta_call"
+                android:textColor="#fff"
+                android:textSize="19sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:drawablePadding="20dp">
+
+            </Button>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+    <!-- lINEAR LAYOUT for "comment ca marhce" -->
+
+</LinearLayout>

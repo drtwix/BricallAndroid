@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BricallAndroid</string>
+    <string name="home_title">Confiez vos travaux à nos professionnels en 3 clics !</string>
+    <string name="subtitle">Choisissez votre ville</string>
+    <string name="comment">Comment ça marche ?</string>
+    <string name="step1">Sélectionnez votre ville</string>
+    <string name="step2">Choisissez le service que vous souhaitez</string>
+    <string name="step3">Sélectionnez et appeler un M3alem</string>
+    <string name="cta_call">Demandez un m3alem  gratuitement ! </string>
+</resources>
